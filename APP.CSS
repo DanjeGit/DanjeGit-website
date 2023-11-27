@@ -1,0 +1,79 @@
+*,::before,::after{
+    outline: o;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: sans-serif;
+      color: var(--COLOR-DARK);
+     background:(--colorwhite);
+}
+:root{
+    --colorwhite::hsla(255,20%,80%);
+    overflow-x: hidden;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.profile-pic{
+    width: 2.2rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.btn{
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+       cursor: pointer;
+       transition: all 200ms ease;
+       font-size: 20px;
+       background: blue;
+       
+
+}
+.btn:hover
+{
+    opacity: 0.8;
+}
+.text-bold{
+    font-size:larger;
+}
+.text-muted{
+    color: gray;
+}
+nav{
+    background: white;
+    width: 100%;
+    padding: 0.7rem 0;
+    z-index: 10;
+    top: 0;
+
+}
+nav .container{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .search-box{
+    background: (--colorwhite);
+     border-radius: 10px;
+     padding: 20px 30px;
+
+
+}
+nav .search-box input[type="search"]{
+    background: transparent;
+    width: 30vh;
+
+    
+}

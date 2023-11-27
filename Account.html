@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="icon" type="image/x-icon" href="logo1.jpeg">
+    <link rel="stylesheet" href="home.css">
+
+</head>
+<div class="logo">
+            
+  <figure> <a href="home.html"> <img src="logo1.jpeg" alt="MY COLLEGE" height="70px" width="70px"> </a></figure>
+  <figcaption> <span class="logo-name">MY SCHOOL UNIVERSITY.</span><br> <span class="motto"><i>Your preffered choice of excellence</i></span></figcaption>
+<div class="nav-bar">
+  <ul>
+<a href="home.html" class="navItems">Home</a>
+<a href="About.html" class="navItems">About us</a>
+<a href="contanct.html" class="navItems">Contacts</a>
+<a href="Account.html" class="navItems">Account</a>
+<a href="#" class="navItems">Courses</a>
+  </ul>
+</div>
+</div>
+
+<body>
+    <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<div class="footer">
+  <div class="platforms">
+      <P>follow us:</P>
+     <div class="site">
+      <ul>
+          <a href="#">Facebook</a>   
+      </ul>
+      <p><i>icon</i></p>
+     </div>
+     <div class="site">
+      <ul>
+          <a href="#">Whatsapp</a>   
+      </ul>
+      <p><i> icon</i></p>
+     </div>
+     <div class="site">
+      <ul>
+          <a href="#">X</a>   
+      </ul>
+      <p><i>icon</i></p>
+     </div>
+     <div class="site">
+      <ul>
+          <a href="#">You Tube</a>   
+      </ul>
+      <p><i>icon</i></p>
+     </div>
+  </div>
+  <div class="rights">  <p>COPYRIGHT © 2023 MY SCHOOL UNIVERSITY. ALL RIGHTS RESERVED</p></div>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+.one{
+    /* min-width:50px; */
+    padding: 1rem;
+   height: 50px;
+   color: white;
+   background: black;
+  
+}
+.cont
+{
+    padding-left: 20px;
+    height: 700px;
+    width: 600px;
+    margin-inline: auto;
+    border: 2px solid #d40f0f;
+    gap: 2rem;
+    flex-wrap: wrap;
+    display: flex;
+    background: rgb(148, 141, 141);
+    justify-content: center;
+    align-items: center;/*verticall alignment*/
+    flex-direction: row;
+    align-content: space-around;/*alignbs the rows
+    flex-basis sets min width basically
+    flex grow expands content at that rate
+  flex shrink  
+  order property
+  grid areas naming the grids
+  grid grid-template-columns: ;
+  grid auto column
+
+
+  grid auto row sets vertical rows
+
+
+    */ 
+
+}
